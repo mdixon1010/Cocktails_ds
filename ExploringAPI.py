@@ -3,10 +3,11 @@ import requests
 import pandas as pd
 import string as s 
 
+
 ###### ------------------------------------------- ######
 
 
-### Blank DataFrame initialized to be used later in loop ###
+### Blank DataFrame initialized to be used later in loop  ###
 allDrinks = pd.DataFrame()
 
 ### Loop throw all letters of the alphabet to be used when calling endpoint
