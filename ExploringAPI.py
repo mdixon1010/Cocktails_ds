@@ -30,6 +30,10 @@ for letter in s.ascii_lowercase:
         
     except: 
         pass
+    
+# Export to file for analysis
+allDrinks.to_csv('drinks.csv')
+
 
 
 
